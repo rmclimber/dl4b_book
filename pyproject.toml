@@ -1,0 +1,15 @@
+[project]
+name = "dl4b-book"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "dlfb",
+    "jax>=0.11.0",
+    "jupyterlab>=4.6.2",
+    "matplotlib>=3.11.1",
+]
+
+[tool.uv.sources]
+dlfb = { git = "https://github.com/deep-learning-for-biology/dlfb.git" }
